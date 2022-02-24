@@ -1,0 +1,8 @@
+---iniciar git
+git init
+
+---ver el status de los repos
+git status
+
+---para guardar
+git commit -m "name del commit"
