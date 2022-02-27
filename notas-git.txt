@@ -59,9 +59,10 @@ git init
 ---ver el status de los repos
 git status
 
----
+---elegir archivo
+git add Nombre.extencion
 
----para guardar
-git commit -m "name del commit"
+---guardar la version
+git commit -m "NombreCommit"
 
 ---
