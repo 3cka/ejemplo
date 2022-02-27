@@ -1,8 +1,67 @@
+--///--GENERAL--///--
+
+---Actual Path
+pwd
+
+---Contenido de la carpeta actual
+==List
+ls
+==Secrets
+ls -a
+
+---Change Directory
+cd Path
+==regresar al inicio
+cd ~
+==regresar una carpeta
+cd ..
+
+---Editar la linea
+==Mover al inicio
+Ctrl + a
+==Mover al final
+Ctrl + e
+==Parte especifica
+Alt + selecciona la prate con el cursor
+==Borrarla toda
+Ctrl + u
+
+---Make Directory
+mkdir Nombre
+
+---Crear archivo
+touch Nombre.extencion
+
+---Abrir archivo
+start Nombre
+==Abrir con
+start Aplicacion Nombre.extencion
+
+---Eliminar archivo
+==remove
+rm Nombre.extencion
+==remove all files
+rm *
+
+---Eliminar carpeta
+rm -r Nombre/
+
+---Editar txt en consola
+vim Nombre.txt
+
+
+
+--///--GIT--///--
+
 ---iniciar git
 git init
 
 ---ver el status de los repos
 git status
 
+---
+
 ---para guardar
 git commit -m "name del commit"
+
+---
