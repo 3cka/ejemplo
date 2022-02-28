@@ -80,12 +80,18 @@ git checkout Nombre.extencion
 ==el '.' es para seleccionar todo, tambipen se puede especificar
 git rm --cached -r .
 
-
+---branch
+==crear
+git branch nombre
+==ver branchs
+git branch
+==cambiar a una branch
+git checkout nombre
 
 
 --///--REMOTE GIT--///--
 ==enviar los commit al repos online
-git remote add origin https://github.com/path/del/commit.git
+git remote add origin https://github.com/path/del/repos.git
 push -u origin master
 
 
