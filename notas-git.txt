@@ -59,10 +59,40 @@ git init
 ---ver el status de los repos
 git status
 
+---ver todos los commits
+git log
+
 ---elegir archivo
 git add Nombre.extencion
+==todos los archivos de la carpeta
+git add .
 
 ---guardar la version
 git commit -m "NombreCommit"
 
----
+---diferencias entre el archivo actual y la ultima version en git
+git diff Nombre.extencion
+
+---restablecer la ultima version
+git checkout Nombre.extencion
+
+---eliminar las versiones guardadas
+==el '.' es para seleccionar todo, tambipen se puede especificar
+git rm --cached -r .
+
+
+
+
+--///--REMOTE GIT--///--
+==enviar los commit al repos online
+git remote add origin https://github.com/path/del/commit.git
+push -u origin master
+
+
+
+
+
+
+
+
+
