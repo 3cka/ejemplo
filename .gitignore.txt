@@ -1,5 +1,5 @@
 chap2.txt
-chap3.txt
+#chap3.txt
 
 #this is a comment
 #*.txt -> todos los documentos con esta extencion seran ignorados
